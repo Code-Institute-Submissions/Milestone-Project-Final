@@ -1,3 +1,19 @@
+/*......feedback to fix:
+Pages: lyft ut "Benefits" mm ur pages folder. Ingen folder!
+Syles names should be lower case. CSS and pages:lower case: uppdatera i html
+
+NCH new logo...take away spaces in file name
+
+in css: only one blank between rules
+in html: max ONE space between sections
+
+vigisual studio code
+
+more content!!!
+
+*/
+
+
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
 /*......Links*/
@@ -115,6 +131,12 @@ text-decoration: none;
 }
 
 
+.navbar-toggle{
+    float: none;
+    padding: 0px 0px;
+    margin-right: 0px;
+    margin-left: 47%;
+}
 
 
 
