@@ -154,6 +154,7 @@ text-decoration: none;
     border-radius: 50%;
     height: 34px;
     width: 34px;
+    margin-left: 8px;
 }
 
 .search-bar{
@@ -191,6 +192,7 @@ text-decoration: none;
   right: auto;
   bottom: 0;
   margin-top: 50px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .logo{
@@ -282,6 +284,13 @@ img:hover {
 .body-size{
     position: relative;
     height: 100%;
+}
+
+.search-index{
+    max-width: 300px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .index-background{
