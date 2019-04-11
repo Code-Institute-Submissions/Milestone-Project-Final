@@ -1,6 +1,7 @@
 /*......feedback to fix:
 
-Syles names should be lower case. CSS and pages:lower case: uppdatera i html
+Syles names should be lower case. uppdatera i html
+validate all code
 
 
 in css: only one blank between rules
@@ -386,7 +387,7 @@ img:hover {
     display: block;
 }
 
-/*--------------------------------------------Topics Body*/ 
+/*----------TOPICS BODY-----------*/ 
 
 .topic-header{
   font-family: "Nunito", Arial;
@@ -409,7 +410,7 @@ img:hover {
   color:#004054;
 }
 
-/*--------------------------------------------Benefits*/    
+/*---------BENEFITS----------*/    
 
 .topics-background{
     background-position: center;
@@ -428,7 +429,7 @@ img:hover {
      max-width: 600px;
 }
 
-/*--------------------------------------------Media*/
+/*-------------MEDIA QUERYS-----------*/
 
 @media  (min-width: 769px) and (max-width: 1025px) {
     .logo-medium {
