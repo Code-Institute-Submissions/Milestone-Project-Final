@@ -1,72 +1,169 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="../Assets/CSS/style.css" type="text/css" />
-    <link rel="stylesheet" href="../Assets/Pictures/NCH new logo.jpg" type="picture" />
-    <link rel="stylesheet" href="../Pictures/payroll.jpg" type="picture" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<html lang="en">
+    
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    </head>
-    
-    <body>
-        <div class="topics-background container-fluid">
-            <header>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/pictures/nchnewlogo.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="pictures/payroll.jpg" type="image/jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Nordic Choice Hotels Payroll Information Website</title>
+</head>
+
+<body>
+    <div class="topics-background container-fluid">
+        <header>
+<!----- Title-----------------------------> 
             <div >
                 <div class="row">
-                    <div class="col-md-12 paddingtitle">
-                     <a href="Index.html"><span class="linksline title mobilettitle tablettitle">Nordic Choice Payroll</span></a>
+                     <div class="col-md-12 paddingtitle">
+                         <a href="index.html">
+                             <span class="linksline title mobilettitle tablettitle">Nordic Choice Payroll</span>
+                         </a>
                     </div>
                 </div>
             </div>
-         </header>
+<!----- Navbar----------------------------->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="glyphicon glyphicon-align-justify"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!----- Search Bar----------------------------->
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-default search-btn">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                                <input type="text" class="form-control search-bar" placeholder="Search">
+                            </div>
+                        </form>
+                    <!----- Navigation dropdown----------------------------->
+                        <ul class="nav navbar-nav navbar-right navbar-style">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <div class="topics">Topics 
+                                        <div class="caret"></div>
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="benefits.html">
+                                            <div class="dropdown-topics">Benefits</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="formsofemployment.html">
+                                            <div class="dropdown-topics">Forms Of Employment</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="payslip.html" class="dropdown-topics">
+                                            <div class="dropdown-topics">Payslip</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="pension.html" class="dropdown-topics">
+                                            <div class="dropdown-topics">Pension</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="sickleave.html" class="dropdown-topics">
+                                            <div class="Dropdown-topics">Sickleave</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="taxation.html" class="dropdown-topics">
+                                            <div class="dropdown-topics">Taxation</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
              
-            <div class="container conatainer-topics">
-               <h3 class="Topic-header">Benefits</h3>
-                   
-                   <h4 class="Topic-sub-header">What is a benefit?</h4>
-                       <p class="Topic-text">A benefit is all forms of non-cash compensation for work. When an employer pays for any kind of private expense for an employee, then the value of that expense is considered a benefit for tax purposes and will be taxed as income.</p>
-                   <br>       
-                   <h4 class="Topic-sub-header">Meal benefit</h4>
-                       <p class="Topic-text"> The  most common benefit in Nordic Choice is the meal benefit. <br><br> The IRS have determined that  98 kr is the lower threshold for how cheep a company can provide its employees with a meal tax free. <br><br>In accordance with our colective bargening agreement we deduct 46 kr per meal from your pay, which is 52 kr less then the treshold (98-46=52). <br><br> So for these 52 kr you will be taxed. <br><br>Here is an example of a meal benefit on a payslip:</p>
-                       <img src="../Assets/Pictures/benifit.PNG" alt="payslip example" class="benfit-payslip-example"></img>
-                       <br><br><br>
-                       <p class="Topic-text">The sum 24010 in the yellow field is the sum that  is used to detrmine how much  income tax should be payed this month. Here is how we got that sum: <br> <br>Salery of 22970+ meal benefit 1040=24010. <br> <br>The tax on 24010 kr in this example is –5501 (as determined by the IRS). <br> <br>Gross pay ( Cash income before tax) is 22970 as the 1040 kr in meal benefit is not a cash compensation but a value used to detrmine tax as shown above. <br> <br>Nett pay (the saley the employee will see on his acconut) is 22970-920 in meal deduction-5501 in tax= 16549 kr. </p>
-               
-           </div>
-            
-            <footer class="container-fluid footer-pinned">
+        <div class="container conatainer-topics">
+            <h3 class="topic-header">Benefits</h3>
+                <h4 class="topic-sub-header">What is a benefit?</h4>
+                    <p class="topic-text">
+                        A benefit is all forms of non-cash compensation for work.
+                        When an employer pays for any kind of private expense for an employee,
+                        then the value of that expense is considered a benefit for tax 
+                        purposes and will be taxed as income.
+                    </p>
+                    <br>       
+                <h4 class="topic-sub-header">Meal benefit</h4>
+                    <p class="topic-text">
+                       The  most common benefit in Nordic Choice is the meal benefit. 
+                       <br><br> The IRS have determined that  98 kr is the lower threshold 
+                       for how cheep a company can provide its employees with a meal tax free.
+                       <br><br>In accordance with our colective bargening agreement we deduct
+                       46 kr per meal from your pay, which is 52 kr less then the treshold (98-46=52). 
+                       <br><br> So for these 52 kr you will be taxed.
+                       <br><br>Here is an example of a meal benefit on a payslip:
+                    </p>
+                    <img src="assets/pictures/benifit.png" alt="payslip example" class="benfit-payslip-example">
+                    <br><br><br>
+                    <p class="topic-text">
+                        The sum 24010 in the yellow field is the sum that  is used to detrmine
+                        how much  income tax should be payed this month. Here is how we got that sum: 
+                        <br> <br>Salery of 22970+ meal benefit 1040=24010.
+                        <br> <br>The tax on 24010 kr in this example is –5501 (as determined by the IRS). 
+                        <br> <br>Gross pay ( Cash income before tax) is 22970 as the 1040 kr in meal
+                        benefit is not a cash compensation but a value used to detrmine tax as shown above. 
+                        <br> <br>Nett pay (the saley the employee will see on his acconut) is 22970-920 in
+                        meal deduction-5501 in tax= 16549 kr.
+                    </p>
+        </div>
+        
+        <footer class="container-fluid footer-pinned">
             <div class="row footerbackgrund">
+               <!-----Logo-----------------------------> 
                 <div class="col-xs-4">
-                     <a href="Index.html">
-                        <img src="../Assets/Pictures/NCH new logo.jpg" class="logo logo-small logo-medium">
+                     <a href="index.html">
+                         <img src="assets/pictures/nchnewlogo.jpg" class="logo logo-small logo-medium" alt="Nordic Choice Logo">
                      </a>
                 </div>
                 <div class="col-xs-4">
                 </div>
+                <!----- Social Media Links and Contact-----------------------------> 
                 <div class="col-xs-4">
-                     
-                     </div>
                      <div class="row">
-                     <ul class="social-links social-links-medium social-links-small">
-                        <li class="sociallinks sociallinks-medium socialspacing-small"><a target="_blank" href="https://www.facebook.com/Nordicchoicehotels/"><span class="socialspacing socialspacing-medium socialspacing-mobile">Facebook</span><i class="fa fa-facebook"></i></a></li>
-                        <li class="sociallinks sociallinks-medium socialspacing-small"><a target="_blank" href="https://lobby.choice.no/"><span class="socialspacing socialspacing-medium socialspacing-mobile">The Lobby</span><i class="fa fa-google-plus"></i></a></li>
-                        <li class="sociallinks sociallinks-medium socialspacing-small"><a target="_blank" href="Contact.html"><span class="socialspacing socialspacing-medium socialspacing-small socialspacing-mobile">Contact</span><i class="fa fa-envelope-o envelope"></i></a></li>
-                     </ul>
-                         
-                         
-                         
+                         <ul class="social-links social-links-medium social-links-small">
+                            <li class="sociallinks sociallinks-medium socialspacing-small">
+                                <a target="_blank" href="https://www.facebook.com/nordicchoicehotels/">
+                                    <span class="socialspacing socialspacing-medium socialspacing-mobile">Facebook</span>
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="sociallinks sociallinks-medium socialspacing-small">
+                                <a target="_blank" href="https://lobby.choice.no/">
+                                    <span class="socialspacing socialspacing-medium socialspacing-mobile">The Lobby</span>
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="sociallinks sociallinks-medium socialspacing-small">
+                                <a target="_blank" href="contact.html">
+                                    <span class="socialspacing socialspacing-medium socialspacing-small socialspacing-mobile">Contact</span>
+                                    <i class="fa fa-envelope-o envelope"></i>
+                                </a>
+                            </li>
+                         </ul>
                      </div>
+                </div>
             </div>
-        </footer>
-        </div>
-          
-        
-        
-    </body>
-    
+        </footer>    
+    </div>
+</body>
 </html>

@@ -359,7 +359,6 @@ img:hover {
 }
 
 /*---------------CONTACT-----------*/
-
 .contact-background{
     background-position: center;
     background-repeat:no-repeat;
@@ -398,6 +397,14 @@ img:hover {
 
 .datalist {
     display: block;
+}
+
+.contact-image{
+    max-height: 200px;
+    max-width: 200px;
+    position: fixed;
+}
+    
 }
 
 /*----------TOPICS BODY-----------*/ 
