@@ -288,7 +288,7 @@ img:hover {
     background-position:relative;
     background-repeat:no-repeat;
     background-size:cover;
-    background-image: url("../Pictures/payroll.jpg");
+    background-image: url("../pictures/payroll.jpg");
     height: 100%;
 }
 
@@ -475,7 +475,7 @@ img:hover {
 }
 
 @media  (min-width: 427px) and (max-width: 768px) {
-    .tablettitle {
+    .title {
         font-weight: 800;
         font-size: 35px;
         line-height: 30px;
@@ -543,11 +543,15 @@ img:hover {
 }
     
 @media  (min-width: 0px) and (max-width: 426px) {
-    .mobilettitle {
+    .title {
         font-weight: 800;
         font-size: 24px;
         line-height: 40px;
         padding-top: 20px;
+    }
+    
+    .indextitlemobile{
+        color:#5adae9;
     }
     
     .socialspacing-mobile{
