@@ -1,21 +1,7 @@
 /*......feedback to fix:
-
-Syles names should be lower case. uppdatera i html
-validate all code
-
-
-in css: only one blank between rules
-in html: max ONE space between sections
-
-vigisual studio code
-
 more content!!!
 
 readme file
-
-klart:
-index
-contact
 */
 
 
@@ -404,7 +390,20 @@ img:hover {
     max-width: 200px;
     position: fixed;
 }
-    
+/*----------Forms Of Employment-----------*/ 
+
+.foe-indefinite-duration{
+    background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: linear-gradient(to bottom right, #00ffed, #00b8ba);
+}
+
+.foe-probationary-period{
+    background-image: -webkit-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
 }
 
 /*----------TOPICS BODY-----------*/ 
