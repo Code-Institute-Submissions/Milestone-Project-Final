@@ -392,18 +392,22 @@ img:hover {
 }
 /*----------Forms Of Employment-----------*/ 
 
-.foe-indefinite-duration{
+.foe-content-background1{
     background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
     background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
     background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
     background-image: linear-gradient(to bottom right, #00ffed, #00b8ba);
 }
 
-.foe-probationary-period{
+.foe-content-background2{
     background-image: -webkit-linear-gradient(top left, #6ee2f5, #00b8ba);
     background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
     background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
     background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
+}
+
+.foe-sub-header{
+    padding-top: 8px;
 }
 
 /*----------TOPICS BODY-----------*/ 
@@ -461,6 +465,14 @@ img:hover {
 @media (min-width: 769px){
     .Topic-text{
         font-size: 20px;
+    }
+    
+    .foe-indefinite-duration{
+        height: 268px;
+    }
+    
+    .foe-time-limited{
+        height: 288px;
     }
 }
 
