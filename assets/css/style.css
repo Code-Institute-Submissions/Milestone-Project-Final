@@ -1,10 +1,34 @@
 /*......feedback to fix:
 error messages for search and contact.
 LAS indicators.
+make all links with a transition underscore
 */
 
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
+
+/*----------TOPICS GENERAL-----------*/ 
+
+.topic-header{
+  font-family: "Nunito", Arial;
+  font-weight: 700;
+  font-size:  25px;
+  color:#004054;
+  text-align: center;
+}
+
+.topic-sub-header{
+  font-family: "Nunito", Arial;
+  font-weight: 600;
+  font-size:  18px;
+  color:#004054;
+  text-align: center;
+}
+
+.topic-text{
+  font-family: "Nunito", Arial;
+  color:#004054;
+}
 
 /*----LINKS----*/
 .linksline:before {
@@ -115,7 +139,7 @@ text-decoration: none;
     margin-left: 47%;
 }
 
-/*--------HEADING-------*/
+/*--------HEADER-------*/
 
 .paddingtitle{
     padding-top:25px;
@@ -167,6 +191,177 @@ text-decoration: none;
 
 .glyphicon-align-justify{
     font-size: 35px;
+}
+
+/*---------------CONTACT-----------*/
+.contact-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../Pictures/contact.jpg");
+}
+    
+.email-heading{
+    font-family: "Nunito", Arial;
+    font-weight: 600;
+    font-size: 20px;
+    color:#000000;
+    text-align: center;
+    margin-top:20px;
+    max-width: 400px;
+}
+
+.container-center{
+    text-align: center;
+    max-width: 400px;
+}
+
+.property-code{
+    width: 100%;
+    Height:30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    color:#9B9B9B;
+    padding-left: 9px;
+    background-color:#BECCCC
+}
+
+.datalist {
+    display: block;
+}
+
+.span:hover + area {
+  display: block;
+}
+
+/*---------BENEFITS----------*/    
+
+.topics-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../pictures/topics_background.jpg");
+    }
+
+.benfit-payslip-example
+{
+    width: 100%;
+    height:100%;
+}
+
+.conatainer-topics{
+     text-align: justify;
+     max-width: 600px;
+}
+
+/*----------Forms Of Employment-----------*/ 
+.foe-content-background1{
+    background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
+    background-image: linear-gradient(bottom right, #00ffed, #00b8ba);
+}
+
+.foe-content-background2{
+    background-image: -webkit-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
+    background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
+}
+
+.foe-content-rounded-edges{
+    border-radius: 15px;
+}
+
+.foe-sub-header{
+    padding-top: 8px;
+}
+
+/*-------------INDEX BODY---------------*/
+.body-size{
+    position: relative;
+    height: 100%;
+}
+
+.search-index{
+    max-width: 300px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.index-background{
+    background-position:relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../pictures/payroll.jpg");
+    height: 100%;
+}
+
+.indexcontent{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.center-btn{
+    margin-right: 20px;
+}
+
+.mainbutton{
+    border-radius: 50%;
+    color: #004054;
+    background: radial-gradient(#5adae9, #017296);
+    height: 150px;
+    width: 150px;
+    font-family: "Nunito", Arial;
+    font-weight: 800;
+    font-size:16px;
+    border: 3px solid #00516b;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 22px;
+    margin-left: 40px;
+}
+
+.mainbutton:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mainbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.mainbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.mainbutton:hover span {
+  padding-right: 25px;
+}
+
+.mainbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*---------TAXATION----------*/  
+.taxation-tabel-example{
+    width: 100%;
+    height:100%;
 }
 
 /*--------------FOOTER-------------------*/
@@ -265,210 +460,6 @@ img:hover {
     font-weight: 800;
 }
 
-/*-------------BODY INDEX---------------*/
-.body-size{
-    position: relative;
-    height: 100%;
-}
-
-.search-index{
-    max-width: 300px;
-    margin:auto;
-    margin-top: 20px;
-    margin-bottom: 20px
-}
-
-.index-background{
-    background-position:relative;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-image: url("../pictures/payroll.jpg");
-    height: 100%;
-}
-
-.indexcontent{
-    text-align: center;
-    margin-top: 1%;
-}
-
-.center-btn{
-    margin-right: 20px;
-}
-
-.mainbutton{
-    border-radius: 50%;
-    color: #004054;
-    background: radial-gradient(#5adae9, #017296);
-    height: 150px;
-    width: 150px;
-    font-family: "Nunito", Arial;
-    font-weight: 800;
-    font-size:16px;
-    border: 3px solid #00516b;
-    transition: all 0.5s;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 22px;
-    margin-top: 22px;
-    margin-left: 40px;
-}
-
-.mainbutton:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.mainbutton span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.mainbutton span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.mainbutton:hover span {
-  padding-right: 25px;
-}
-
-.mainbutton:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-/*---------------CONTACT-----------*/
-.contact-background{
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-image: url("../Pictures/contact.jpg");
-}
-    
-.email-heading{
-    font-family: "Nunito", Arial;
-    font-weight: 600;
-    font-size: 20px;
-    color:#000000;
-    text-align: center;
-    margin-top:20px;
-    max-width: 400px;
-}
-
-.container-center{
-    text-align: center;
-    max-width: 400px;
-}
-
-.property-code{
-    width: 100%;
-    Height:30px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    font-family: inherit;
-    color:#9B9B9B;
-    padding-left: 9px;
-    background-color:#BECCCC
-}
-
-.datalist {
-    display: block;
-}
-
-.contact-image{
-    max-height: 200px;
-    max-width: 200px;
-    position: fixed;
-}
-
-.taxation-tabel-example{
-    width: 100%;
-    height:100%;
-}
-
-.span:hover + area {
-  display: block;
-}
-
-/*----------Forms Of Employment-----------*/ 
-
-.red{
-    background-image: url("../assets/pictures/foebackground.png");
-}
-
-.foe-content-background1{
-    background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: linear-gradient(bottom right, #00ffed, #00b8ba);
-}
-
-.foe-content-background2{
-    background-image: -webkit-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
-}
-
-.foe-content-rounded-edges{
-    border-radius: 15px;
-}
-
-.foe-sub-header{
-    padding-top: 8px;
-}
-
-/*----------TOPICS BODY-----------*/ 
-
-.topic-header{
-  font-family: "Nunito", Arial;
-  font-weight: 700;
-  font-size:  25px;
-  color:#004054;
-  text-align: center;
-}
-
-.topic-sub-header{
-  font-family: "Nunito", Arial;
-  font-weight: 600;
-  font-size:  18px;
-  color:#004054;
-  text-align: center;
-}
-
-.topic-text{
-  font-family: "Nunito", Arial;
-  color:#004054;
-}
-
-/*---------BENEFITS----------*/    
-
-.topics-background{
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-image: url("../pictures/topics_background.jpg");
-    }
-
-.benfit-payslip-example
-{
-    width: 100%;
-    height:100%;
-}
-
-.conatainer-topics{
-     text-align: justify;
-     max-width: 600px;
-}
-
 /*-------------MEDIA QUERYS-----------*/
 
 @media  (min-width: 769px) and (max-width: 1025px) {
@@ -479,17 +470,17 @@ img:hover {
     }
 }
 
-@media (min-width: 769px){
+@media (min-width: 768px){
     .Topic-text{
         font-size: 20px;
     }
     
     .foe-indefinite-duration{
-        height: 277px;
+        height: 297px;
     }
     
     .foe-time-limited{
-        height: 296px;
+        height: 316px;
     }
 }
 
@@ -526,15 +517,9 @@ img:hover {
         padding-top: 20px;
     }
     
-    .foe-indefinite-duration{
-        height: 277px;
-    }
-    
-    .foe-time-limited{
-        height: 296px;
-    }
-    
 }
+
+
 
 @media  (min-width: 0px) and (max-width: 798px) {
     .logo-small {
