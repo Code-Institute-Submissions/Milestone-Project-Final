@@ -367,12 +367,13 @@ text-decoration: none;
 /*--------------FOOTER-------------------*/
 
 .footerbackgrund{
-  background-color: #004054;
-  left: auto;
-  right: auto;
   bottom: 0;
   margin-top: 50px;
   border-radius: 10px 10px 0px 0px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-image: url("../pictures/footerbackground.jpg");
+  height: 100%;
 }
 
 .logo{
