@@ -1,5 +1,6 @@
 /*......feedback to fix:
 error messages for search and contact.
+LAS indicators.
 */
 
 
@@ -399,11 +400,15 @@ img:hover {
 
 /*----------Forms Of Employment-----------*/ 
 
+.red{
+    background-image: url("../assets/pictures/foebackground.png");
+}
+
 .foe-content-background1{
     background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
     background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
     background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: linear-gradient(to bottom right, #00ffed, #00b8ba);
+    background-image: linear-gradient(bottom right, #00ffed, #00b8ba);
 }
 
 .foe-content-background2{
@@ -411,6 +416,10 @@ img:hover {
     background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
     background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
     background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
+}
+
+.foe-content-rounded-edges{
+    border-radius: 15px;
 }
 
 .foe-sub-header{
@@ -476,11 +485,11 @@ img:hover {
     }
     
     .foe-indefinite-duration{
-        height: 268px;
+        height: 277px;
     }
     
     .foe-time-limited{
-        height: 288px;
+        height: 296px;
     }
 }
 
@@ -516,6 +525,15 @@ img:hover {
         line-height: 30px;
         padding-top: 20px;
     }
+    
+    .foe-indefinite-duration{
+        height: 277px;
+    }
+    
+    .foe-time-limited{
+        height: 296px;
+    }
+    
 }
 
 @media  (min-width: 0px) and (max-width: 798px) {

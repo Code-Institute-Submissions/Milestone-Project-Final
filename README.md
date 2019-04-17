@@ -23,7 +23,11 @@ Using this webpage the employee can look up an question emidiatly without the in
 also lighten the workload of the payroll department. 
 
 To get a basic concept of what the page might look like I made a simple wireframe using the free [wireframe.cc](https://wireframe.cc/) tool.
-![Image of wireframe](/assets/wireframes/wireframe1.png)
+![Image of wireframe](Wireframe projecktarbete 1.PNG)
+
+Ther is a contact page but it has purpusly been semi-hidden. The only way to get to it is by clicking the email symbol in the footer.
+The idea is that the employee should look thrue the site and only make contact after having tryed to find
+the answer to the question on the site. 
 
 
 ## Features
