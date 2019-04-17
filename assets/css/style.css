@@ -259,18 +259,11 @@ text-decoration: none;
 }
 
 /*----------Forms Of Employment-----------*/ 
-.foe-content-background1{
-    background-image: -webkit-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: -moz-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: -o-linear-gradient(top left, #00ffed, #00b8ba);
-    background-image: linear-gradient(bottom right, #00ffed, #00b8ba);
-}
-
-.foe-content-background2{
-    background-image: -webkit-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: -moz-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: -o-linear-gradient(top left, #6ee2f5, #00b8ba);
-    background-image: linear-gradient(to bottom right, #6ee2f5, #00b8ba);
+.foe-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 150%;
+    background-image: url("../pictures/foebackground.png");
 }
 
 .foe-content-rounded-edges{
@@ -599,6 +592,10 @@ img:hover {
     
     .email-heading{
         font-size: 14px;
+    }
+    
+    .foe-background{
+       background-image: none; 
     }
 }
 
