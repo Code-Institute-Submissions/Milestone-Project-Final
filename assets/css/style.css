@@ -1,6 +1,7 @@
 /*......feedback to fix:
 error messages for search and contact.
-LAS indicators.
+change color of text to black and upp the size
+make the social links more appealing triangle
 make all links with a transition underscore
 */
 
@@ -12,7 +13,7 @@ make all links with a transition underscore
 .topic-header{
   font-family: "Nunito", Arial;
   font-weight: 700;
-  font-size:  25px;
+  font-size:  30px;
   color:#004054;
   text-align: center;
 }
@@ -20,14 +21,15 @@ make all links with a transition underscore
 .topic-sub-header{
   font-family: "Nunito", Arial;
   font-weight: 600;
-  font-size:  18px;
+  font-size:  22px;
   color:#004054;
   text-align: center;
 }
 
 .topic-text{
   font-family: "Nunito", Arial;
-  color:#004054;
+  color:black;
+  font-size: 18px;
 }
 
 /*----LINKS----*/
@@ -465,16 +467,18 @@ img:hover {
 }
 
 @media (min-width: 768px){
-    .Topic-text{
-        font-size: 20px;
-    }
-    
     .foe-indefinite-duration{
         height: 297px;
     }
     
     .foe-time-limited{
         height: 316px;
+    }
+    
+    .foe-background{
+        width: 750px;
+        margin-left:-90px;
+        border-radius: 0px 32px;
     }
 }
 
@@ -525,6 +529,10 @@ img:hover {
     
     .navbar-nav>li>a{
         line-height: 14px;
+    }
+    
+    .foe-background{
+        text-align: left;
     }
 }
 
