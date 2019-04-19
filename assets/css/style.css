@@ -33,13 +33,11 @@ make all links with a transition underscore
 }
 
 /*----LINKS----*/
-
-a.middle
-{
+a.middle{
     position: relative;
 }
 
-a.middle:before {
+a.middle:before{
   content: "";
   position: absolute;
   width: 100%;
@@ -49,10 +47,10 @@ a.middle:before {
   background-color:#004054;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.9s ease-in-out;
 }
 
-a.middle:hover:before {
+a.middle:hover:before{
   visibility: visible;
   transform: scaleX(1);
 }
@@ -603,6 +601,13 @@ img:hover {
     
     .foe-background{
        background-image: none; 
+    }
+}
+
+@media (max-width: 320px){
+    a.middle:hover:before{
+      visibility:hidden;
+      transform: scaleX(0);
     }
 }
 
