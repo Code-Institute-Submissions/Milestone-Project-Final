@@ -30,6 +30,7 @@ make all links with a transition underscore
   font-family: "Nunito", Arial;
   color:black;
   font-size: 18px;
+  text-decoration: none!important;
 }
 
 /*----LINKS----*/
@@ -610,4 +611,3 @@ img:hover {
       transform: scaleX(0);
     }
 }
-
