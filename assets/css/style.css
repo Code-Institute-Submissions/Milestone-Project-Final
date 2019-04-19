@@ -1,11 +1,9 @@
 /*......feedback to fix:
-error messages for search and contact.
-change color of text to black and upp the size
 make the social links more appealing triangle
-make all links with a transition underscore
+run all text true spellcheck.
+validate all CSS styles. 
+go true course to get ideas.
 */
-
-
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
 /*----------TOPICS GENERAL-----------*/ 
@@ -31,6 +29,18 @@ make all links with a transition underscore
   color:black;
   font-size: 18px;
   text-decoration: none!important;
+}
+
+.topics-background{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image: url("../pictures/topics_background.jpg");
+    }
+
+.conatainer-topics{
+     text-align: justify;
+     max-width: 600px;
 }
 
 /*----LINKS----*/
@@ -84,7 +94,7 @@ a.middle:hover:before{
     margin-left: 50%;
 }
 
-.dropdown-content {
+.dropdown-content{
   display: none;
   position: absolute;
   min-width: 100px;
@@ -100,7 +110,6 @@ a.middle:hover:before{
     font-size:  20px;
     color:#004054;
     margin-top: 10px;
-    
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -194,13 +203,6 @@ a.middle:hover:before{
 }
 
 /*---------------CONTACT-----------*/
-.contact-background{
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-image: url("../Pictures/contact.jpg");
-}
-    
 .email-heading{
     font-family: "Nunito", Arial;
     font-weight: 600;
@@ -239,26 +241,12 @@ a.middle:hover:before{
 }
 
 /*---------BENEFITS----------*/    
-
-.topics-background{
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-image: url("../pictures/topics_background.jpg");
-    }
-
-.benfit-payslip-example
-{
+.benfit-payslip-example{
     width: 100%;
     height:100%;
 }
 
-.conatainer-topics{
-     text-align: justify;
-     max-width: 600px;
-}
-
-/*----------Forms Of Employment-----------*/ 
+/*----------FORMS OF EMPLOYMENT-----------*/ 
 .foe-background{
     background-position: center;
     background-repeat:no-repeat;
@@ -275,7 +263,7 @@ a.middle:hover:before{
 }
 
 /*-------------INDEX BODY---------------*/
-.body-size{
+.index-body-size{
     position: relative;
     height: 100%;
 }
@@ -322,18 +310,18 @@ a.middle:hover:before{
     margin-left: 40px;
 }
 
-.mainbutton:hover {
+.mainbutton:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.mainbutton span {
+.mainbutton span{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.mainbutton span:after {
+.mainbutton span:after{
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -342,19 +330,13 @@ a.middle:hover:before{
   transition: 0.5s;
 }
 
-.mainbutton:hover span {
+.mainbutton:hover span{
   padding-right: 25px;
 }
 
-.mainbutton:hover span:after {
+.mainbutton:hover span:after{
   opacity: 1;
   right: 0;
-}
-
-/*---------TAXATION----------*/  
-.taxation-tabel-example{
-    width: 100%;
-    height:100%;
 }
 
 /*--------------FOOTER-------------------*/
