@@ -512,6 +512,13 @@ img:hover {
     .foe-background{
         text-align: left;
     }
+    
+    .navbar-style{
+    border: none;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 @media  (min-width: 0px) and (max-width: 723px) {
