@@ -1,7 +1,6 @@
 /*......feedback to fix:
 make the social links more appealing triangle
 run all text true spellcheck.
-fix dropdown navigation in small screens
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
@@ -69,8 +68,7 @@ a.middle:hover:before{
 
 .dropdown {
   text-align: center;
-  max-height: 30px;
-  position:relative;
+  
 }
 
 .topics{
@@ -84,8 +82,12 @@ a.middle:hover:before{
 .navbar-style{
     border: solid;
     border-radius: 5px;
+}
+
+.dropdown-toggle{
     background: radial-gradient(#5adae9, #017296)!important;
 }
+
 
 .navbar-center{
     margin-left: 50%;
