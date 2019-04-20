@@ -71,6 +71,10 @@ a.middle:hover:before{
   
 }
 
+.navbar-nav>li>a{
+    border-radius: 10px;
+}
+
 .topics{
   font-family: "Nunito", Arial;
   font-weight: 700;
@@ -79,13 +83,10 @@ a.middle:hover:before{
   margin-top:-5px;
 }
 
-.navbar-style{
-    border: solid;
-    border-radius: 5px;
-}
-
 .dropdown-toggle{
-    background: radial-gradient(#5adae9, #017296)!important;
+    background: radial-gradient(#5adae9, #29a0bb)!important;
+    border:solid;
+    border-color:#004054;
 }
 
 
@@ -597,4 +598,12 @@ img:hover {
       visibility:hidden;
       transform: scaleX(0);
     }
+    
+    .search-bar{
+        max-width: 79%;
+    }
+    
+   .navbar-nav>li>.dropdown-menu{
+       min-width: 257px;
+   }
 }
