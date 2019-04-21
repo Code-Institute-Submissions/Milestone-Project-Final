@@ -1,5 +1,5 @@
 /*......feedback to fix:
-make the social links more appealing triangle
+ändra alla komentarer till ***.
 run all text true spellcheck.
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
@@ -424,7 +424,7 @@ img:hover {
     text-transform: uppercase;
     font-weight: 300;
     text-decoration: none;
-    margin-right:10px;
+    text-align:center;
 }
 
 .sociallinks{
@@ -462,7 +462,7 @@ img:hover {
 }
 
 @media  (min-width: 724px) and (max-width: 1025px) {
-    .socialspacing-medium{
+    .socialspacing{
         margin-top:0px;
         font-weight: 200;
         margin-right:5px;
@@ -475,13 +475,13 @@ img:hover {
         margin-top: 10px;
     }
     
-    .social-links-medium  li a i{
+    .social-links li a i{
         width: 35px;
         height: 35px;
         font-size: 22px;
     }
     
-    .sociallinks-medium{
+    .sociallinks{
         margin-right: 15px;
     }
 }
@@ -529,11 +529,11 @@ img:hover {
         border-radius:7px;
     }
     
-    .socialspacing-small{
+    .socialspacing{
         font-size: 9px;
     }
     
-    .social-links-small li a i {
+    .social-links li a i {
         width: 25px;
         height: 25px;
         padding: 10px 0;
@@ -580,7 +580,7 @@ img:hover {
         color:#5adae9;
     }
     
-    .socialspacing-mobile{
+    .socialspacing{
         display:none;
     }
     
