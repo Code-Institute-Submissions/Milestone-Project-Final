@@ -363,14 +363,13 @@ img:hover {
 }
 
 .social-links {
-    padding-bottom: 15px;
     list-style-type: none;
-    text-align: right;
-    margin-right: 30px;
+    text-align: center;
     margin-top: 15px;
 }
 
 .social-links li a i {
+    margin-left: 7px;
     width: 40px;
     height: 40px;
     padding: 15px 0;
@@ -436,8 +435,31 @@ img:hover {
 }
 
 /*-------------MEDIA QUERYS-----------*/
+@media (min-width: 2560px){
+    .sociallinks{
+    margin-left:66%;
+    }
+}
 
-@media  (min-width: 769px) and (max-width: 1025px) {
+@media (min-width: 1440px)and (max-width: 2559px){
+    .sociallinks{
+        margin-left:50%;
+    } 
+}
+
+@media  (min-width: 769px) and (max-width: 1044px){
+    .sociallinks{
+        margin-left:50%;
+    } 
+}
+
+@media  (min-width: 769px) and (max-width: 1044px){
+    .sociallinks{
+        margin-left:44%;
+    }
+}
+
+@media  (min-width: 769px) and (max-width: 1025px){
     .logo-medium {
         max-height: 75px;
         margin-top: 15px;
@@ -465,7 +487,6 @@ img:hover {
     .socialspacing{
         margin-top:0px;
         font-weight: 200;
-        margin-right:5px;
         font-size: 12px;
     }
 }
@@ -480,10 +501,6 @@ img:hover {
         height: 35px;
         font-size: 22px;
     }
-    
-    .sociallinks{
-        margin-right: 15px;
-    }
 }
 
 @media  (min-width: 427px) and (max-width: 768px) {
@@ -492,6 +509,10 @@ img:hover {
         font-size: 35px;
         line-height: 30px;
         padding-top: 20px;
+    }
+    
+    .sociallinks{
+        margin-left:45px;
     }
     
 }
@@ -605,5 +626,9 @@ img:hover {
     
    .navbar-nav>li>.dropdown-menu{
        min-width: 257px;
+   }
+   
+   .social-links li a i{
+       margin-left:-15px;
    }
 }
