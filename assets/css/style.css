@@ -1,8 +1,8 @@
 /*......feedback to fix:
 run all text true spellcheck.
 höjd för alla olika skärmstorlekar
-EMPLOYMENT forms on all pages
 w3c validate all pages again
+CSS validering
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
@@ -277,7 +277,7 @@ a.middle:hover:before{
 }
 
 .index-background{
-    background-position:relative;
+    position: relative;
     background-repeat:no-repeat;
     background-size:cover;
     background-image: url("../pictures/payroll.jpg");
