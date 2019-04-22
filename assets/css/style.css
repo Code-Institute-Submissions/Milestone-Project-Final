@@ -1,6 +1,7 @@
 /*......feedback to fix:
 ändra alla komentarer till ***.
 run all text true spellcheck.
+höjd för alla olika skärmstorlekar
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
@@ -434,10 +435,20 @@ img:hover {
     font-weight: 800;
 }
 
+.contact-btn{
+    margin-top: 30px;
+    margin-left: 32px;
+}
+
 /*-------------MEDIA QUERYS-----------*/
 @media (min-width: 2560px){
     .sociallinks{
     margin-left:66%;
+    }
+    
+    .contact-btn{
+        margin-left: 170%;
+        margin-top: 51px;
     }
 }
 
@@ -445,17 +456,21 @@ img:hover {
     .sociallinks{
         margin-left:50%;
     } 
+    
+    .contact-btn{
+        margin-left: 457px;
+        margin-top: 49px;
+    }
 }
 
 @media  (min-width: 769px) and (max-width: 1044px){
     .sociallinks{
         margin-left:50%;
     } 
-}
-
-@media  (min-width: 769px) and (max-width: 1044px){
-    .sociallinks{
-        margin-left:44%;
+    
+    .contact-btn{
+        margin-top: 45px;
+        margin-left: 289px;
     }
 }
 
@@ -499,7 +514,7 @@ img:hover {
     .social-links li a i{
         width: 35px;
         height: 35px;
-        font-size: 22px;
+        font-size: 26px;
     }
 }
 
@@ -515,6 +530,10 @@ img:hover {
         margin-left:45px;
     }
     
+    .contact-btn{
+        margin-top: 49px;
+        margin-left: 172px;
+    }
 }
 
 
@@ -540,7 +559,7 @@ img:hover {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
-}
+    }
 }
 
 @media  (min-width: 0px) and (max-width: 723px) {
@@ -588,6 +607,13 @@ img:hover {
         -o-transition: all 0.35s ease-in-out;
     }
 }
+
+@media  (min-width: 376px) and (max-width: 426px) {
+    .contact-btn{
+        margin-top:29px;
+        margin-left:60px;
+    }
+}
     
 @media  (min-width: 0px) and (max-width: 426px) {
     .title {
@@ -611,6 +637,13 @@ img:hover {
     
     .foe-background{
        background-image: none; 
+    }
+}
+
+@media  (min-width: 321px) and (max-width: 376px) {
+    .contact-btn{
+        margin-top:29px;
+        margin-left:45px;
     }
 }
 
