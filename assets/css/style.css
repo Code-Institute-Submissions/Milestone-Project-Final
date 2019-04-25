@@ -1,13 +1,10 @@
 /*......feedback to fix:
-kontrollera screen sizes på alla sidor
 bild i README
 spell check README
-validera om alla sidor
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
 /*----------TOPICS GENERAL-----------*/ 
-
 .topic-header{
   font-family: "Nunito", Arial;
   font-weight: 700;
@@ -36,7 +33,7 @@ validera om alla sidor
     background-repeat:no-repeat;
     background-size:cover;
     background-image: url("../pictures/topics_background.jpg");
-    }
+}
 
 .conatainer-topics{
      text-align: justify;
@@ -67,7 +64,6 @@ a.middle:hover:before{
 }
 
 /*------ DROPDOWN NAVIGATION-------- */
-
 .dropdown {
   text-align: center;
   
@@ -91,7 +87,6 @@ a.middle:hover:before{
     border-color:#004054;
 }
 
-
 .navbar-center{
     margin-left: 50%;
 }
@@ -113,7 +108,7 @@ a.middle:hover:before{
     margin-top: 10px;
 }
 
-.navbar-nav>li>.dropdown-menu {
+.navbar-nav>li>.dropdown-menu{
      border-radius: 10px;
      background-color: #A9FEFB;
      border:solid;
@@ -150,7 +145,6 @@ a.middle:hover:before{
 }
 
 /*--------HEADER-------*/
-
 .paddingtitle{
     padding-top:25px;
     text-align: center;
@@ -182,7 +176,7 @@ a.middle:hover:before{
     margin-left: 10px;
 }
 
-.search-btn:hover {
+.search-btn:hover{
     background:#ffffff;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -341,7 +335,6 @@ a.middle:hover:before{
 }
 
 /*--------------FOOTER-------------------*/
-
 .footerbackgrund{
   bottom: 0;
   margin-top: 50px;
@@ -360,20 +353,18 @@ a.middle:hover:before{
     margin-left:55px;
 }
 
-img:hover {
+img:hover{
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-.social-links {
+.social-links{
     list-style-type: none;
     text-align:right;
     margin-top: 12px;
     margin-right: 24px;
 }
 
-
-
-.social-links li a i {
+.social-links li a i{
     margin-right: 8px;
     width: 40px;
     height: 40px;
@@ -390,17 +381,17 @@ img:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
+.social-links li a i:hover{
     background:#ffffff ;
 }
 
-.mail-footer {
+.mail-footer{
     padding-bottom: 15px;
     list-style-type: none;
     margin-top: 15px;
 }
 
-.mail-footer li a i {
+.mail-footer li a i{
     margin-top: 10px;
     width: 40px;
     height: 40px;
@@ -418,7 +409,7 @@ img:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.mail-footer li a i:hover {
+.mail-footer li a i:hover{
     background:#ffffff ;
 }
 
@@ -496,8 +487,6 @@ img:hover {
     }
 }
 
-
-
 @media  (min-width: 0px) and (max-width: 798px) {
     .logo{
         max-height: 65px;
@@ -522,8 +511,8 @@ img:hover {
     }
 }
 
-@media  (min-width: 0px) and (max-width: 723px) {
-    .dropbtn {
+@media  (min-width: 0px) and (max-width: 723px){
+    .dropbtn{
         font-size: 25px;
         border: none;
         border-radius:7px;
@@ -533,7 +522,7 @@ img:hover {
         font-size: 9px;
     }
     
-    .social-links li a i {
+    .social-links li a i{
         width: 25px;
         height: 25px;
         padding: 10px 0;
@@ -568,8 +557,8 @@ img:hover {
     }
 }
     
-@media  (min-width: 0px) and (max-width: 426px) {
-    .title {
+@media  (min-width: 0px) and (max-width: 426px){
+    .title{
         font-weight: 800;
         font-size: 24px;
         line-height: 40px;
@@ -592,7 +581,7 @@ img:hover {
        background-image: none; 
     }
     
-    .social-links {
+    .social-links{
         margin-right: 0px;
         margin-top: 33px;
     }
