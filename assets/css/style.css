@@ -2,7 +2,6 @@
 bild i README
 readme deployment
 
-small screens:-ingen hamburgar ikon direkt utfällt
 change div to section
 vissa CSS CLASS ska vara ID.
 validate all code
@@ -142,13 +141,6 @@ a.middle:hover:before{
     max-height: 28px;
 }
 
-.navbar-toggle{
-    float: none;
-    padding: 0px 0px;
-    margin-right: 0px;
-    margin-left: 47%;
-}
-
 /*--------HEADER-------*/
 .paddingtitle{
     padding-top:25px;
@@ -196,10 +188,6 @@ a.middle:hover:before{
 .glyphicon-search{
     font-size: 20px;
     margin-left:-7px;
-}
-
-.glyphicon-align-justify{
-    font-size: 35px;
 }
 
 /*---------------CONTACT-----------*/
@@ -584,6 +572,8 @@ img:hover{
     
     .foe-background{
        background-image: none; 
+       margin-right: -15px;
+       margin-left: -15px;
     }
     
     .social-links{
@@ -594,6 +584,12 @@ img:hover{
     .sociallinks{
         margin-right: 0px;
         min-width:0px;
+    }
+    
+    .topic-text{
+        text-align: left;
+        margin-right: -15px;
+        margin-left: -15px;
     }
 }
 
