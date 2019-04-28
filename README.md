@@ -70,7 +70,7 @@ intended. All pages have been tested for compatibility with the standard screen
 sizes in google developer’s tools. All code have been validated using the W3C validator. 
 
 ## Deployment.
-The project was deployed by uploading to Git Hub.
+GitHub pages have been used to deploy the site. The master branch is beeing used.
 
 ## Credits
 
