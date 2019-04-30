@@ -1,9 +1,5 @@
 /*......to fix:
 bild i README
-
-change div to section
-vissa CSS CLASS ska vara ID.
-validate all code
 */
 @import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800|Arial:100,200,300,400,500,600,700,800');
 
@@ -190,7 +186,7 @@ a.middle:hover:before{
 }
 
 /*---------------CONTACT-----------*/
-.email-heading{
+#email-heading{
     font-family: "Nunito", Arial;
     font-weight: 600;
     font-size: 20px;
@@ -200,12 +196,12 @@ a.middle:hover:before{
     max-width: 400px;
 }
 
-.container-center{
+#container-center{
     text-align: center;
     max-width: 400px;
 }
 
-.property-code{
+#property-code{
     width: 100%;
     Height:30px;
     font-size: 14px;
@@ -219,29 +215,25 @@ a.middle:hover:before{
     background-color:#BECCCC
 }
 
-.datalist {
-    display: block;
-}
-
 .span:hover + area {
   display: block;
 }
 
 /*---------BENEFITS----------*/    
-.benfit-payslip-example{
+#benfit-payslip-example{
     width: 100%;
     height:100%;
 }
 
 /*----------FORMS OF EMPLOYMENT-----------*/ 
-.foe-background{
+#foe-background{
     background-position: center;
     background-repeat:no-repeat;
     background-size: 150%;
     background-image: url("../pictures/foebackground.png");
 }
 
-.foe-content-rounded-edges{
+#foe-content-rounded-edges{
     border-radius: 15px;
 }
 
@@ -250,19 +242,19 @@ a.middle:hover:before{
 }
 
 /*-------------INDEX BODY---------------*/
-.index-body-size{
+#index-body-size{
     position: relative;
     height: 100%;
 }
 
-.search-index{
+#search-index{
     max-width: 300px;
     margin:auto;
     margin-top: 20px;
     margin-bottom: 20px
 }
 
-.index-background{
+#index-background{
     position: relative;
     background-repeat:no-repeat;
     background-size:cover;
@@ -270,12 +262,12 @@ a.middle:hover:before{
     height: 100%;
 }
 
-.indexcontent{
+#indexcontent{
     text-align: center;
     margin-top: 1%;
 }
 
-.center-btn{
+#center-btn{
     margin-right: 20px;
 }
 
@@ -443,7 +435,7 @@ img:hover{
         height: 316px;
     }
     
-    .foe-background{
+    #foe-background{
         width: 750px;
         margin-left:-90px;
         border-radius: 0px 32px;
@@ -491,7 +483,7 @@ img:hover{
         line-height: 14px;
     }
     
-    .foe-background{
+    #foe-background{
         text-align: left;
     }
     
@@ -565,11 +557,11 @@ img:hover{
         display:none;
     }
     
-    .email-heading{
+    #email-heading{
         font-size: 14px;
     }
     
-    .foe-background{
+    #foe-background{
        background-image: none; 
        margin-right: -15px;
        margin-left: -15px;
