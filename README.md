@@ -32,7 +32,7 @@ This will also lighten the workload of the payroll department.
 
 To get a basic concept of what the page might look like I made a simple wireframe 
 using the free [wireframe.cc](https://wireframe.cc/) tool.
-![Image of wireframe](assets/pictures/benifit.png)
+![Image of wireframe](/assets/pictures/wireframe.PNG)
 
 There is a contact page but it has purposely been semi-hidden. The only way to
 get to it is by clicking the email symbol in the footer. The idea is that the 
