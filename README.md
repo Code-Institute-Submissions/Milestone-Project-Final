@@ -5,6 +5,7 @@
 
 This site provides information on various payroll related topics for the employees 
 of Nordic Choice Hotels. The site is meant to answer frequently asked questions. 
+You may find the site [here](https://danfiliphoff.github.io/Milestone-Project-Final/).
 
 ## UX
 I aimed to create an easily navigated site in a blue colour scheme, which is typical for
